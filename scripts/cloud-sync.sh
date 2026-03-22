@@ -63,8 +63,8 @@ read_bridge() {
 }
 
 read_all_bridge() {
-  # Read all values from the Yun's Bridge datastore
-  curl -s --connect-timeout 3 "http://${YUN_HOST}/data/get" 2>/dev/null
+  # Read all values from the Yun's Bridge datastore (authenticated after factory reset)
+  curl -s --connect-timeout 3 -u root:arduino "http://${YUN_HOST}/data/get" 2>/dev/null
 }
 
 push_property() {
