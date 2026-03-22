@@ -20,3 +20,4 @@ Thumbs.db
 *.key
 credentials.json
 .env
+scripts/cloud-config.sh
