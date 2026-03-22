@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ping:*)",
+      "Bash(gh repo:*)",
+      "Bash(arduino-cli version:*)",
+      "Bash(git --version)",
+      "Bash(ssh root@192.168.11.36 \"uname -a; cat /etc/openwrt_release 2>/dev/null; opkg list-installed 2>/dev/null | head -20\")",
+      "Bash(git config:*)",
+      "Bash(ssh:*)",
+      "Read(//c/Users/toddc/.ssh/**)",
+      "Bash(curl -s --connect-timeout 5 http://192.168.11.36/)",
+      "Bash(curl -s --connect-timeout 5 http://192.168.11.36/data/get)",
+      "Bash(sshpass)",
+      "Bash(pacman -S sshpass)",
+      "Bash(apt-get install:*)",
+      "Bash(choco list:*)",
+      "Bash(choco install:*)",
+      "Bash(pip install:*)",
+      "Bash(python3:*)",
+      "Bash(python -c \"import paramiko; print\\(''''ok''''\\)\")",
+      "Bash(python -m pip show paramiko)",
+      "Bash(python:*)",
+      "Bash(curl -s --connect-timeout 5 http://192.168.11.36/cgi-bin/luci/webpanel/homepage)",
+      "Bash(curl:*)",
+      "Bash(export PATH=\"/c/Program Files/GitHub CLI:$PATH:/c/ProgramData/chocolatey/bin\")",
+      "Bash(gh --version)",
+      "Bash(gh auth:*)",
+      "Bash(export PATH=\"/c/ProgramData/chocolatey/bin:$PATH\")",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth status 2>&1)",
+      "Bash(git init:*)",
+      "Bash(ssh-keygen:*)",
+      "Bash(arduino-cli compile:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"Initial Arduino Yun project structure:*)"
+    ]
+  }
+}

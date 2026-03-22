@@ -1,0 +1,22 @@
+# Build artifacts
+build/
+*.elf
+*.hex
+*.bin
+
+# IDE files
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Arduino CLI
+.arduino15/
+
+# Secrets
+*.pem
+*.key
+credentials.json
+.env
